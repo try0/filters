@@ -258,7 +258,7 @@ Java 8 で動かす場合は、`List.copyOf` / `Set.copyOf` / `List.of` / `Strin
 # リポジトリのルートで
 mvn verify                       # 全モジュールをビルド
 mvn -pl ip-block-filter verify   # このモジュールだけ（テスト 155 件）
-# → ip-block-filter/target/ip-block-filter-1.0.0.jar
+# → ip-block-filter/target/ip-block-filter-0.0.1.jar
 ```
 
 アプリから使う場合の依存:
@@ -267,7 +267,7 @@ mvn -pl ip-block-filter verify   # このモジュールだけ（テスト 155 �
 <dependency>
   <groupId>jp.try0.servlet</groupId>
   <artifactId>ip-block-filter</artifactId>
-  <version>1.0.0</version>
+  <version>0.0.1</version>
 </dependency>
 ```
 
